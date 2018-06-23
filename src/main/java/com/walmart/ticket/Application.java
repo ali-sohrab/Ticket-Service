@@ -24,7 +24,7 @@ public class Application {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Ticket Service Management\n\n");
-		String options = "\nSelect any option to proceed:\n1. Initialize Venue \t2. Set seat expiration period \t3. Available Seats \t4. Request for Hold \t5. Reserve/commit \t6. Exit.";
+		String options = "\nSelect any option to proceed:\n1. Initialize Venue \t2. Set seat expiration period \t3. Available Seats \t4. Request to Hold Seats \t5. Reserve Seats \t6. Exit.";
 		boolean flag = true;
 		int rows = 0, seatsPerRow = 0;
 		TicketService service = null;
