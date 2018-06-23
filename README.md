@@ -2,8 +2,8 @@
 Implemented a simple ticket service that facilitates the discovery, temporary hold, and final reservation of seats within a high-demand performance venue.
 
 # Maven Commands:
-Assuming current directory is at this repository (where pom.xml is present).
-1. mvn clean package assembly:assembly -DskipTests (To skip the test cases)
+Goto directory where pom.xml is present and enter below commands to proceed.
+1. mvn clean package assembly:assembly -DskipTests
 2. java -jar target\Ticket-Service-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.walmart.ticket.Application
 
 
